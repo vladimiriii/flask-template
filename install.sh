@@ -44,7 +44,7 @@ if [ -z "$ve" ]; then
       echo `pip3 install virtualenv`
    fi
 fi
-# start virtualenv and install required packages
+# Start virtualenv and install required packages
 echo `virtualenv -p python3 venv`
 currentDir=`pwd`
 virtualenvPath='venv/bin/activate'
