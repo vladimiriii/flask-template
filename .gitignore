@@ -3,3 +3,6 @@ app/data/*
 app/__pycache__/*
 
 venv/*
+
+config.cfg
+app.wsgi
